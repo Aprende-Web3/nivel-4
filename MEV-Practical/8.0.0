@@ -1,0 +1,67 @@
+
+> bufferutil@4.0.3 install C:\Users\Usuario\Desktop\Aprende_Web3\nivel-4\MEV-Practical\node_modules\ganache-core\node_modules\bufferutil
+> node-gyp-build
+
+
+> keccak@3.0.1 install C:\Users\Usuario\Desktop\Aprende_Web3\nivel-4\MEV-Practical\node_modules\ganache-core\node_modules\keccak
+> node-gyp-build || exit 0
+
+
+> secp256k1@4.0.2 install C:\Users\Usuario\Desktop\Aprende_Web3\nivel-4\MEV-Practical\node_modules\ganache-core\node_modules\secp256k1
+> node-gyp-build || exit 0
+
+
+> utf-8-validate@5.0.4 install C:\Users\Usuario\Desktop\Aprende_Web3\nivel-4\MEV-Practical\node_modules\ganache-core\node_modules\utf-8-validate
+> node-gyp-build
+
+
+> core-js@2.6.12 postinstall C:\Users\Usuario\Desktop\Aprende_Web3\nivel-4\MEV-Practical\node_modules\ganache-core\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> core-js-pure@3.8.2 postinstall C:\Users\Usuario\Desktop\Aprende_Web3\nivel-4\MEV-Practical\node_modules\ganache-core\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> web3@1.2.11 postinstall C:\Users\Usuario\Desktop\Aprende_Web3\nivel-4\MEV-Practical\node_modules\ganache-core\node_modules\web3
+> node angular-patch.js
+
+
+> postinstall-postinstall@2.1.0 postinstall C:\Users\Usuario\Desktop\Aprende_Web3\nivel-4\MEV-Practical\node_modules\postinstall-postinstall
+> node ./run.js
+
++ chai@4.2.0
++ hardhat-gas-reporter@1.0.8
++ @nomicfoundation/hardhat-chai-matchers@1.0.0
++ @types/mocha@9.1.0
++ @nomiclabs/hardhat-ethers@2.0.0
++ solidity-coverage@0.8.1
++ typechain@8.1.0
++ @nomiclabs/hardhat-etherscan@3.0.0
++ @typechain/hardhat@6.1.2
++ ts-node@10.9.1
++ dotenv@16.0.3
++ ethers@5.7.1
++ ethereum-waffle@3.4.4
++ @types/chai@4.2.0
++ @nomicfoundation/hardhat-network-helpers@1.0.0
++ @typechain/ethers-v5@10.1.0
++ @nomiclabs/hardhat-waffle@2.0.3
++ @flashbots/ethers-provider-bundle@0.5.0
++ @nomicfoundation/hardhat-toolbox@2.0.0
++ @openzeppelin/contracts@4.7.3
+added 1447 packages from 820 contributors and audited 1760 packages in 208.763s
+
+158 packages are looking for funding
+  run `npm fund` for details
+
+found 119 vulnerabilities (7 low, 39 moderate, 49 high, 24 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
